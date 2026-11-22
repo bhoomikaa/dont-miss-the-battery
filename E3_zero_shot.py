@@ -61,12 +61,15 @@ else:
 
 # %%
 # ---- Folders: split and trained-model results from Drive, outputs to E3_zero_shot ----
-try:
-    from google.colab import drive
-    drive.mount("/content/drive")
-    BASE = "/content/drive/MyDrive/dont_miss_the_battery"
-except ImportError:   # Kaggle (outputs in /kaggle/working are kept) or a local machine
-    BASE = "/kaggle/working" if os.path.isdir("/kaggle/working") else "./outputs"
+if os.path.isdir("/kaggle/working"):   # Kaggle: outputs in /kaggle/working are kept
+    BASE = "/kaggle/working"
+else:
+    try:
+        from google.colab import drive
+        drive.mount("/content/drive")
+        BASE = "/content/drive/MyDrive/dont_miss_the_battery"
+    except ImportError:
+        BASE = "./outputs"
 E2_DIR = os.path.join(BASE, "E2_safety")
 E1_DIR = os.path.join(BASE, "E1_detectors")
 OUT = os.path.abspath(os.path.join(BASE, "E3_zero_shot"))
