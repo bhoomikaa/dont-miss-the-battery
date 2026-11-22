@@ -65,11 +65,18 @@ try:
     from google.colab import drive
     drive.mount("/content/drive")
     BASE = "/content/drive/MyDrive/dont_miss_the_battery"
-except ImportError:
-    BASE = "./outputs"
+except ImportError:   # Kaggle (outputs in /kaggle/working are kept) or a local machine
+    BASE = "/kaggle/working" if os.path.isdir("/kaggle/working") else "./outputs"
 E2_DIR = os.path.join(BASE, "E2_safety")
 E1_DIR = os.path.join(BASE, "E1_detectors")
 OUT = os.path.abspath(os.path.join(BASE, "E3_zero_shot"))
+# Without Drive, take the saved split and the trained-model summary from the project's GitHub repo
+REPO_RAW = "https://raw.githubusercontent.com/bhoomikaa/dont-miss-the-battery/main/results"
+for d, f in [(E2_DIR, "E2/split.json"), (E1_DIR, "E1/E1_summary.json")]:
+    if not os.path.exists(os.path.join(d, os.path.basename(f))):
+        os.makedirs(d, exist_ok=True)
+        urllib.request.urlretrieve(f"{REPO_RAW}/{f}", os.path.join(d, os.path.basename(f)))
+        print("Fetched", f, "from GitHub")
 assert os.path.exists(os.path.join(E2_DIR, "split.json")), "Run the E2 notebook first (it saves the split)."
 os.makedirs(OUT, exist_ok=True)
 FIG = os.path.join(OUT, "figures"); os.makedirs(FIG, exist_ok=True)
@@ -573,7 +580,7 @@ plt.tight_layout(); plt.savefig(os.path.join(FIG, "E3_pr_curves.png"), dpi=120);
 
 # %%
 # ---- Zip results + figures and download ----
-pack = "/content/E3_results" if os.path.isdir("/content") else "./E3_results"
+pack = os.path.join(BASE, "E3_results") if BASE == "/kaggle/working" else ("/content/E3_results" if os.path.isdir("/content") else "./E3_results")
 os.makedirs(pack, exist_ok=True)
 for fn in os.listdir(OUT):
     if fn.endswith(".json"):
