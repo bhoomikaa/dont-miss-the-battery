@@ -361,6 +361,16 @@ from torchvision.ops import batched_nms
 # ---- The three zero-shot detectors: each returns {style: {image_id: prediction}} for a list of images ----
 from transformers import Owlv2Processor, Owlv2ForObjectDetection, AutoProcessor, AutoModelForZeroShotObjectDetection
 
+T_START = {}
+def progress(tag, done, total, every=200):
+    """Print a progress line every `every` images so a long cell never looks frozen."""
+    if tag not in T_START or done < T_START[tag][1]:   # new pass (validation, then test)
+        T_START[tag] = [time.time(), done]
+    T_START[tag][1] = done
+    if done and (done % every < (done - 1) % every + 1 or done == total):
+        el = time.time() - T_START[tag][0]
+        print(f"  {tag}: {done}/{total} images | {el / 60:.1f} min | ~{el / done * (total - done) / 60:.1f} min left", flush=True)
+
 class OWLv2:
     """OWLv2 scores every query independently (sigmoid per query), so all prompt styles run in one pass."""
     ID = "google/owlv2-base-patch16-ensemble"
@@ -385,6 +395,7 @@ class OWLv2:
             for b, iid in enumerate(ids[i:i + bs]):
                 for s in PROMPTS:
                     out[s][iid] = finish(bx[b], sc[b][:, self.cols[s]], typed=s != "generic")
+            progress("owlv2", min(i + bs, len(ids)), len(ids))
         return out
 
 class GroundingDINO:
@@ -417,6 +428,7 @@ class GroundingDINO:
                 bx = cxcywh_to_xyxy(o.pred_boxes.float().cpu(), W, H)
                 for b, iid in enumerate(ids[i:i + bs]):
                     out[s][iid] = finish(bx[b], cls[b], typed=s != "generic")
+                progress(f"grounding_dino/{s}", min(i + bs, len(ids)), len(ids))
         return out
 
 class YOLOWorldZS:
