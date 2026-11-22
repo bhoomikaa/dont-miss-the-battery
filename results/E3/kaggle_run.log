@@ -1,0 +1,170 @@
+[{"stream_name":"stderr","time":5.49906509,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.499105514,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.233169693,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.23319466,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.233199463,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.233203221,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.773061471,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.7730892879999995,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.773093924,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.773097518,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.315457789,"data":"  Installing build dependencies ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":14.872105842,"data":"  Getting requirements to build wheel ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":15.075496093,"data":"  Preparing metadata (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":17.45704725,"data":"  Building wheel for clip (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":41.455339997,"data":"torch 2.11.0+cu130 | torchvision 0.26.0+cu130 | device cuda\n"}
+,{"stream_name":"stdout","time":41.45537625,"data":"Tesla T4\n"}
+,{"stream_name":"stdout","time":42.017581975,"data":"Fetched E2/split.json from GitHub\n"}
+,{"stream_name":"stdout","time":42.137802456,"data":"Fetched E1/E1_summary.json from GitHub\n"}
+,{"stream_name":"stdout","time":42.137824127,"data":"Outputs -\u003e /kaggle/working/E3_zero_shot\n"}
+,{"stream_name":"stdout","time":42.33765562,"data":"Downloading ~263 MB ...\n"}
+,{"stream_name":"stdout","time":359.008462418,"data":"train | images: 1421 | boxes: 1437\n"}
+,{"stream_name":"stdout","time":359.008496399,"data":"val | images: 1407 | boxes: 1434\n"}
+,{"stream_name":"stdout","time":359.008501753,"data":"Classes: ['cylindric', 'pouch', 'prismatic']\n"}
+,{"stream_name":"stdout","time":360.934553557,"data":"Loaded the E2 (Faster R-CNN) split from Drive\n"}
+,{"stream_name":"stdout","time":360.934603128,"data":"val 702 imgs / 47 batteries | test 705 imgs / 47 batteries\n"}
+,{"stream_name":"stdout","time":360.9533338,"data":"1421 702 705\n"}
+,{"stream_name":"stdout","time":365.684948732,"data":"images: 702 val | 705 test\n"}
+,{"stream_name":"stderr","time":370.011262044,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":370.01129159,"data":"\n"}
+,{"stream_name":"stderr","time":370.011297167,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":408.844235073,"data":"  owlv2: 200/702 images | 0.4 min | ~0.9 min left\n"}
+,{"stream_name":"stdout","time":431.170048232,"data":"  owlv2: 400/702 images | 0.7 min | ~0.6 min left\n"}
+,{"stream_name":"stdout","time":453.839349324,"data":"  owlv2: 600/702 images | 1.1 min | ~0.2 min left\n"}
+,{"stream_name":"stdout","time":465.59333338,"data":"  owlv2: 702/702 images | 1.3 min | ~0.0 min left\n"}
+,{"stream_name":"stdout","time":488.929737081,"data":"  owlv2: 200/705 images | 0.4 min | ~1.0 min left\n"}
+,{"stream_name":"stdout","time":512.770956924,"data":"  owlv2: 400/705 images | 0.8 min | ~0.6 min left\n"}
+,{"stream_name":"stdout","time":537.106372716,"data":"  owlv2: 600/705 images | 1.2 min | ~0.2 min left\n"}
+,{"stream_name":"stdout","time":550.183836249,"data":"  owlv2: 705/705 images | 1.4 min | ~0.0 min left\n"}
+,{"stream_name":"stdout","time":559.623897623,"data":"[owlv2          names      ] battery AP50 0.589 | any-miss 0.660 prec 0.896 | type mAP50 0.317 type-miss 1.000 prec 0.000\n"}
+,{"stream_name":"stdout","time":567.637033246,"data":"[owlv2          descriptive] battery AP50 0.851 | any-miss 0.489 prec 0.963 | type mAP50 0.184 type-miss 0.997 prec 0.333\n"}
+,{"stream_name":"stdout","time":571.047335488,"data":"[owlv2          generic    ] battery AP50 0.357 | any-miss 0.932 prec 0.960\n"}
+,{"stream_name":"stdout","time":571.047369187,"data":"[owlv2] 3.4 min\n"}
+,{"stream_name":"stdout","time":650.326410972,"data":"  grounding_dino/names: 200/702 images | 1.1 min | ~2.7 min left\n"}
+,{"stream_name":"stdout","time":715.942057975,"data":"  grounding_dino/names: 400/702 images | 2.2 min | ~1.6 min left\n"}
+,{"stream_name":"stdout","time":782.041521209,"data":"  grounding_dino/names: 600/702 images | 3.3 min | ~0.6 min left\n"}
+,{"stream_name":"stdout","time":815.641469132,"data":"  grounding_dino/names: 702/702 images | 3.8 min | ~0.0 min left\n"}
+,{"stream_name":"stdout","time":883.473375491,"data":"  grounding_dino/descriptive: 200/702 images | 1.1 min | ~2.8 min left\n"}
+,{"stream_name":"stdout","time":951.095520731,"data":"  grounding_dino/descriptive: 400/702 images | 2.2 min | ~1.7 min left\n"}
+,{"stream_name":"stdout","time":1018.897432183,"data":"  grounding_dino/descriptive: 600/702 images | 3.4 min | ~0.6 min left\n"}
+,{"stream_name":"stdout","time":1053.408316409,"data":"  grounding_dino/descriptive: 702/702 images | 3.9 min | ~0.0 min left\n"}
+,{"stream_name":"stdout","time":1119.00143585,"data":"  grounding_dino/generic: 200/702 images | 1.1 min | ~2.7 min left\n"}
+,{"stream_name":"stdout","time":1184.644667784,"data":"  grounding_dino/generic: 400/702 images | 2.2 min | ~1.6 min left\n"}
+,{"stream_name":"stdout","time":1249.961244189,"data":"  grounding_dino/generic: 600/702 images | 3.3 min | ~0.6 min left\n"}
+,{"stream_name":"stdout","time":1283.421664837,"data":"  grounding_dino/generic: 702/702 images | 3.8 min | ~0.0 min left\n"}
+,{"stream_name":"stdout","time":1349.379375009,"data":"  grounding_dino/names: 200/705 images | 1.1 min | ~2.7 min left\n"}
+,{"stream_name":"stdout","time":1415.420016141,"data":"  grounding_dino/names: 400/705 images | 2.2 min | ~1.7 min left\n"}
+,{"stream_name":"stdout","time":1481.479643918,"data":"  grounding_dino/names: 600/705 images | 3.3 min | ~0.6 min left\n"}
+,{"stream_name":"stdout","time":1516.236364655,"data":"  grounding_dino/names: 705/705 images | 3.9 min | ~0.0 min left\n"}
+,{"stream_name":"stdout","time":1584.079304315,"data":"  grounding_dino/descriptive: 200/705 images | 1.1 min | ~2.8 min left\n"}
+,{"stream_name":"stdout","time":1651.951426856,"data":"  grounding_dino/descriptive: 400/705 images | 2.2 min | ~1.7 min left\n"}
+,{"stream_name":"stdout","time":1719.827609586,"data":"  grounding_dino/descriptive: 600/705 images | 3.4 min | ~0.6 min left\n"}
+,{"stream_name":"stdout","time":1755.50202472,"data":"  grounding_dino/descriptive: 705/705 images | 4.0 min | ~0.0 min left\n"}
+,{"stream_name":"stdout","time":1821.21742759,"data":"  grounding_dino/generic: 200/705 images | 1.1 min | ~2.7 min left\n"}
+,{"stream_name":"stdout","time":1886.871033863,"data":"  grounding_dino/generic: 400/705 images | 2.2 min | ~1.7 min left\n"}
+,{"stream_name":"stdout","time":1952.637401275,"data":"  grounding_dino/generic: 600/705 images | 3.3 min | ~0.6 min left\n"}
+,{"stream_name":"stdout","time":1987.186697274,"data":"  grounding_dino/generic: 705/705 images | 3.8 min | ~0.0 min left\n"}
+,{"stream_name":"stdout","time":1997.088574056,"data":"[grounding_dino names      ] battery AP50 0.998 | any-miss 0.000 prec 0.970 | type mAP50 0.376 type-miss 0.957 prec 0.233\n"}
+,{"stream_name":"stdout","time":2005.853918254,"data":"[grounding_dino descriptive] battery AP50 0.942 | any-miss 0.001 prec 0.953 | type mAP50 0.397 type-miss 0.993 prec 0.417\n"}
+,{"stream_name":"stdout","time":2010.498066758,"data":"[grounding_dino generic    ] battery AP50 1.000 | any-miss 0.000 prec 0.964\n"}
+,{"stream_name":"stdout","time":2010.498089386,"data":"[grounding_dino] 24.0 min\n"}
+,{"stream_name":"stdout","time":2010.498094973,"data":"Creating new Ultralytics Settings v0.0.8 file ✅ \n"}
+,{"stream_name":"stdout","time":2010.49810024,"data":"View Ultralytics Settings with 'yolo settings' or at '/root/.config/Ultralytics/settings.json'\n"}
+,{"stream_name":"stdout","time":2010.498105112,"data":"Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings\n"}
+,{"stream_name":"stdout","time":2011.466279351,"data":"\r\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 1% ──────────── 303.8KB/24.7MB 2.9MB/s 0.1s\u003c8.6s\r\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 10% ━─────────── 2.6/24.7MB 23.1MB/s 0.2s\u003c1.0s\r\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 64% ━━━━━━━╸──── 16.0/24.7MB 130.1MB/s 0.3s\u003c0.1s\r\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 100% ━━━━━━━━━━━━ 24.7MB 69.6MB/s 0.4s\n"}
+,{"stream_name":"stderr","time":2011.712097318,"data":"\r  0%|                                               | 0.00/338M [00:00\u003c?, ?iB/s]\n"}
+,{"stream_name":"stderr","time":2011.814206183,"data":"\r  0%|                                               | 0.00/338M [00:00\u003c?, ?iB/s]\r  2%|▋                                     | 6.59M/338M [00:00\u003c00:05, 68.1MiB/s]\n"}
+,{"stream_name":"stderr","time":2011.999448553,"data":"\r  2%|▋                                     | 6.59M/338M [00:00\u003c00:05, 68.1MiB/s]\r  4%|█▍                                    | 13.1M/338M [00:00\u003c00:07, 45.5MiB/s]\n"}
+,{"stream_name":"stderr","time":2012.099181543,"data":"\r  4%|█▍                                    | 13.1M/338M [00:00\u003c00:07, 45.5MiB/s]\r  5%|██                                    | 18.1M/338M [00:00\u003c00:06, 48.0MiB/s]\n"}
+,{"stream_name":"stderr","time":2012.418770251,"data":"\r  5%|██                                    | 18.1M/338M [00:00\u003c00:06, 48.0MiB/s]\r  7%|██▌                                   | 23.0M/338M [00:00\u003c00:11, 28.1MiB/s]\n"}
+,{"stream_name":"stderr","time":2012.615665481,"data":"\r  7%|██▌                                   | 23.0M/338M [00:00\u003c00:11, 28.1MiB/s]\r  8%|██▉                                   | 26.5M/338M [00:00\u003c00:13, 24.9MiB/s]\n"}
+,{"stream_name":"stderr","time":2012.71570101,"data":"\r  8%|██▉                                   | 26.5M/338M [00:00\u003c00:13, 24.9MiB/s]\r  9%|███▌                                  | 31.6M/338M [00:01\u003c00:10, 30.6MiB/s]\n"}
+,{"stream_name":"stderr","time":2012.816423318,"data":"\r  9%|███▌                                  | 31.6M/338M [00:01\u003c00:10, 30.6MiB/s]\r 12%|████▌                                 | 40.0M/338M [00:01\u003c00:07, 43.5MiB/s]\n"}
+,{"stream_name":"stderr","time":2012.931401009,"data":"\r 12%|████▌                                 | 40.0M/338M [00:01\u003c00:07, 43.5MiB/s]\r 13%|█████                                 | 45.2M/338M [00:01\u003c00:06, 44.5MiB/s]\n"}
+,{"stream_name":"stderr","time":2013.118618056,"data":"\r 13%|█████                                 | 45.2M/338M [00:01\u003c00:06, 44.5MiB/s]\r 15%|█████▋                                | 50.2M/338M [00:01\u003c00:07, 38.1MiB/s]\n"}
+,{"stream_name":"stderr","time":2013.218858902,"data":"\r 15%|█████▋                                | 50.2M/338M [00:01\u003c00:07, 38.1MiB/s]\r 16%|██████                                | 54.4M/338M [00:01\u003c00:07, 39.6MiB/s]\n"}
+,{"stream_name":"stderr","time":2013.319303066,"data":"\r 16%|██████                                | 54.4M/338M [00:01\u003c00:07, 39.6MiB/s]\r 18%|██████▊                               | 60.0M/338M [00:01\u003c00:06, 44.3MiB/s]\n"}
+,{"stream_name":"stderr","time":2013.420037607,"data":"\r 18%|██████▊                               | 60.0M/338M [00:01\u003c00:06, 44.3MiB/s]\r 20%|███████▌                              | 67.7M/338M [00:01\u003c00:05, 53.6MiB/s]\n"}
+,{"stream_name":"stderr","time":2013.523187651,"data":"\r 20%|███████▌                              | 67.7M/338M [00:01\u003c00:05, 53.6MiB/s]\r 23%|████████▌                             | 76.5M/338M [00:01\u003c00:04, 63.5MiB/s]\n"}
+,{"stream_name":"stderr","time":2013.624320472,"data":"\r 23%|████████▌                             | 76.5M/338M [00:01\u003c00:04, 63.5MiB/s]\r 25%|█████████▍                            | 83.3M/338M [00:01\u003c00:04, 65.5MiB/s]\n"}
+,{"stream_name":"stderr","time":2013.725216042,"data":"\r 25%|█████████▍                            | 83.3M/338M [00:01\u003c00:04, 65.5MiB/s]\r 27%|██████████▎                           | 91.6M/338M [00:02\u003c00:03, 71.3MiB/s]\n"}
+,{"stream_name":"stderr","time":2013.878004468,"data":"\r 27%|██████████▎                           | 91.6M/338M [00:02\u003c00:03, 71.3MiB/s]\r 29%|███████████                           | 98.6M/338M [00:02\u003c00:04, 62.5MiB/s]\n"}
+,{"stream_name":"stderr","time":2013.978640536,"data":"\r 29%|███████████                           | 98.6M/338M [00:02\u003c00:04, 62.5MiB/s]\r 31%|████████████▎                          | 106M/338M [00:02\u003c00:03, 67.0MiB/s]\n"}
+,{"stream_name":"stderr","time":2014.225912247,"data":"\r 31%|████████████▎                          | 106M/338M [00:02\u003c00:03, 67.0MiB/s]\r 33%|█████████████                          | 113M/338M [00:02\u003c00:04, 48.4MiB/s]\n"}
+,{"stream_name":"stderr","time":2014.35444586,"data":"\r 33%|█████████████                          | 113M/338M [00:02\u003c00:04, 48.4MiB/s]\r 35%|█████████████▋                         | 118M/338M [00:02\u003c00:04, 47.4MiB/s]\n"}
+,{"stream_name":"stderr","time":2014.454869357,"data":"\r 35%|█████████████▋                         | 118M/338M [00:02\u003c00:04, 47.4MiB/s]\r 37%|██████████████▎                        | 124M/338M [00:02\u003c00:04, 49.9MiB/s]\n"}
+,{"stream_name":"stderr","time":2014.55881233,"data":"\r 37%|██████████████▎                        | 124M/338M [00:02\u003c00:04, 49.9MiB/s]\r 39%|███████████████▏                       | 132M/338M [00:02\u003c00:03, 57.1MiB/s]\n"}
+,{"stream_name":"stderr","time":2014.683825277,"data":"\r 39%|███████████████▏                       | 132M/338M [00:02\u003c00:03, 57.1MiB/s]\r 41%|███████████████▉                       | 138M/338M [00:02\u003c00:03, 54.8MiB/s]\n"}
+,{"stream_name":"stderr","time":2014.820021125,"data":"\r 41%|███████████████▉                       | 138M/338M [00:02\u003c00:03, 54.8MiB/s]\r 42%|████████████████▌                      | 143M/338M [00:03\u003c00:03, 51.0MiB/s]\n"}
+,{"stream_name":"stderr","time":2014.923274603,"data":"\r 42%|████████████████▌                      | 143M/338M [00:03\u003c00:03, 51.0MiB/s]\r 44%|█████████████████▎                     | 150M/338M [00:03\u003c00:03, 55.3MiB/s]\n"}
+,{"stream_name":"stderr","time":2015.168943156,"data":"\r 44%|█████████████████▎                     | 150M/338M [00:03\u003c00:03, 55.3MiB/s]\r 46%|█████████████████▉                     | 155M/338M [00:03\u003c00:04, 40.5MiB/s]\n"}
+,{"stream_name":"stderr","time":2015.269195313,"data":"\r 46%|█████████████████▉                     | 155M/338M [00:03\u003c00:04, 40.5MiB/s]\r 48%|██████████████████▌                    | 161M/338M [00:03\u003c00:04, 44.3MiB/s]\n"}
+,{"stream_name":"stderr","time":2015.373193949,"data":"\r 48%|██████████████████▌                    | 161M/338M [00:03\u003c00:04, 44.3MiB/s]\r 50%|███████████████████▍                   | 168M/338M [00:03\u003c00:03, 50.0MiB/s]\n"}
+,{"stream_name":"stderr","time":2015.485950704,"data":"\r 50%|███████████████████▍                   | 168M/338M [00:03\u003c00:03, 50.0MiB/s]\r 51%|███████████████████▉                   | 173M/338M [00:03\u003c00:03, 50.0MiB/s]\n"}
+,{"stream_name":"stderr","time":2015.587859648,"data":"\r 51%|███████████████████▉                   | 173M/338M [00:03\u003c00:03, 50.0MiB/s]\r 53%|████████████████████▌                  | 178M/338M [00:03\u003c00:03, 50.8MiB/s]\n"}
+,{"stream_name":"stderr","time":2015.687982507,"data":"\r 53%|████████████████████▌                  | 178M/338M [00:03\u003c00:03, 50.8MiB/s]\r 55%|█████████████████████▎                 | 184M/338M [00:03\u003c00:03, 53.4MiB/s]\n"}
+,{"stream_name":"stderr","time":2015.788820154,"data":"\r 55%|█████████████████████▎                 | 184M/338M [00:03\u003c00:03, 53.4MiB/s]\r 57%|██████████████████████▏                | 192M/338M [00:04\u003c00:02, 62.5MiB/s]\n"}
+,{"stream_name":"stderr","time":2015.957798715,"data":"\r 57%|██████████████████████▏                | 192M/338M [00:04\u003c00:02, 62.5MiB/s]\r 59%|██████████████████████▉                | 199M/338M [00:04\u003c00:02, 52.9MiB/s]\n"}
+,{"stream_name":"stderr","time":2016.058012417,"data":"\r 59%|██████████████████████▉                | 199M/338M [00:04\u003c00:02, 52.9MiB/s]\r 61%|███████████████████████▋               | 205M/338M [00:04\u003c00:02, 56.0MiB/s]\n"}
+,{"stream_name":"stderr","time":2016.16834382,"data":"\r 61%|███████████████████████▋               | 205M/338M [00:04\u003c00:02, 56.0MiB/s]\r 62%|████████████████████████▎              | 210M/338M [00:04\u003c00:02, 55.4MiB/s]\n"}
+,{"stream_name":"stderr","time":2016.268632897,"data":"\r 62%|████████████████████████▎              | 210M/338M [00:04\u003c00:02, 55.4MiB/s]\r 64%|█████████████████████████              | 217M/338M [00:04\u003c00:02, 58.7MiB/s]\n"}
+,{"stream_name":"stderr","time":2016.389255049,"data":"\r 64%|█████████████████████████              | 217M/338M [00:04\u003c00:02, 58.7MiB/s]\r 66%|█████████████████████████▋             | 223M/338M [00:04\u003c00:02, 55.9MiB/s]\n"}
+,{"stream_name":"stderr","time":2016.492698026,"data":"\r 66%|█████████████████████████▋             | 223M/338M [00:04\u003c00:02, 55.9MiB/s]\r 68%|██████████████████████████▎            | 228M/338M [00:04\u003c00:02, 55.9MiB/s]\n"}
+,{"stream_name":"stderr","time":2016.63640871,"data":"\r 68%|██████████████████████████▎            | 228M/338M [00:04\u003c00:02, 55.9MiB/s]\r 69%|██████████████████████████▉            | 234M/338M [00:04\u003c00:02, 50.2MiB/s]\n"}
+,{"stream_name":"stderr","time":2016.736065226,"data":"\r 69%|██████████████████████████▉            | 234M/338M [00:04\u003c00:02, 50.2MiB/s]\r 71%|███████████████████████████▋           | 239M/338M [00:05\u003c00:01, 52.4MiB/s]\n"}
+,{"stream_name":"stderr","time":2016.836060069,"data":"\r 71%|███████████████████████████▋           | 239M/338M [00:05\u003c00:01, 52.4MiB/s]\r 73%|████████████████████████████▎          | 245M/338M [00:05\u003c00:01, 54.2MiB/s]\n"}
+,{"stream_name":"stderr","time":2016.936624672,"data":"\r 73%|████████████████████████████▎          | 245M/338M [00:05\u003c00:01, 54.2MiB/s]\r 74%|████████████████████████████▉          | 251M/338M [00:05\u003c00:01, 56.6MiB/s]\n"}
+,{"stream_name":"stderr","time":2017.129679336,"data":"\r 74%|████████████████████████████▉          | 251M/338M [00:05\u003c00:01, 56.6MiB/s]\r 76%|█████████████████████████████▌         | 256M/338M [00:05\u003c00:01, 45.0MiB/s]\n"}
+,{"stream_name":"stderr","time":2017.239336513,"data":"\r 76%|█████████████████████████████▌         | 256M/338M [00:05\u003c00:01, 45.0MiB/s]\r 77%|██████████████████████████████▏        | 261M/338M [00:05\u003c00:01, 46.1MiB/s]\n"}
+,{"stream_name":"stderr","time":2017.412240408,"data":"\r 77%|██████████████████████████████▏        | 261M/338M [00:05\u003c00:01, 46.1MiB/s]\r 79%|██████████████████████████████▋        | 266M/338M [00:05\u003c00:01, 39.0MiB/s]\n"}
+,{"stream_name":"stderr","time":2017.664173184,"data":"\r 79%|██████████████████████████████▋        | 266M/338M [00:05\u003c00:01, 39.0MiB/s]\r 80%|███████████████████████████████▏       | 270M/338M [00:05\u003c00:02, 29.4MiB/s]\n"}
+,{"stream_name":"stderr","time":2017.764005085,"data":"\r 80%|███████████████████████████████▏       | 270M/338M [00:05\u003c00:02, 29.4MiB/s]\r 81%|███████████████████████████████▊       | 275M/338M [00:06\u003c00:01, 33.8MiB/s]\n"}
+,{"stream_name":"stderr","time":2017.864218324,"data":"\r 81%|███████████████████████████████▊       | 275M/338M [00:06\u003c00:01, 33.8MiB/s]\r 84%|████████████████████████████████▋      | 283M/338M [00:06\u003c00:01, 44.9MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.026687102,"data":"\r 84%|████████████████████████████████▋      | 283M/338M [00:06\u003c00:01, 44.9MiB/s]\r 85%|█████████████████████████████████▎     | 288M/338M [00:06\u003c00:01, 40.8MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.148957717,"data":"\r 85%|█████████████████████████████████▎     | 288M/338M [00:06\u003c00:01, 40.8MiB/s]\r 87%|█████████████████████████████████▊     | 293M/338M [00:06\u003c00:01, 40.2MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.248950046,"data":"\r 87%|█████████████████████████████████▊     | 293M/338M [00:06\u003c00:01, 40.2MiB/s]\r 89%|██████████████████████████████████▌    | 299M/338M [00:06\u003c00:00, 46.3MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.358526677,"data":"\r 89%|██████████████████████████████████▌    | 299M/338M [00:06\u003c00:00, 46.3MiB/s]\r 90%|███████████████████████████████████    | 304M/338M [00:06\u003c00:00, 46.4MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.458570827,"data":"\r 90%|███████████████████████████████████    | 304M/338M [00:06\u003c00:00, 46.4MiB/s]\r 91%|███████████████████████████████████▋   | 308M/338M [00:06\u003c00:00, 47.3MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.558960366,"data":"\r 91%|███████████████████████████████████▋   | 308M/338M [00:06\u003c00:00, 47.3MiB/s]\r 93%|████████████████████████████████████▎  | 314M/338M [00:06\u003c00:00, 50.7MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.684996806,"data":"\r 93%|████████████████████████████████████▎  | 314M/338M [00:06\u003c00:00, 50.7MiB/s]\r 95%|████████████████████████████████████▉  | 319M/338M [00:06\u003c00:00, 47.8MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.785850545,"data":"\r 95%|████████████████████████████████████▉  | 319M/338M [00:06\u003c00:00, 47.8MiB/s]\r 96%|█████████████████████████████████████▌ | 325M/338M [00:07\u003c00:00, 50.3MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.886061799,"data":"\r 96%|█████████████████████████████████████▌ | 325M/338M [00:07\u003c00:00, 50.3MiB/s]\r 98%|██████████████████████████████████████▎| 332M/338M [00:07\u003c00:00, 56.8MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.99253933,"data":"\r 98%|██████████████████████████████████████▎| 332M/338M [00:07\u003c00:00, 56.8MiB/s]\r100%|██████████████████████████████████████▉| 337M/338M [00:07\u003c00:00, 56.2MiB/s]\n"}
+,{"stream_name":"stderr","time":2018.995800788,"data":"\r100%|██████████████████████████████████████▉| 337M/338M [00:07\u003c00:00, 56.2MiB/s]\r100%|███████████████████████████████████████| 338M/338M [00:07\u003c00:00, 48.6MiB/s]\n"}
+,{"stream_name":"stderr","time":2019.087269044,"data":"\r100%|███████████████████████████████████████| 338M/338M [00:07\u003c00:00, 48.6MiB/s]\n"}
+,{"stream_name":"stderr","time":2019.087300339,"data":"\n"}
+,{"stream_name":"stderr","time":2019.087325145,"data":"\n"}
+,{"stream_name":"stdout","time":2098.425772669,"data":"[yolo_world     names      ] battery AP50 0.704 | any-miss 0.661 prec 1.000 | type mAP50 0.119 type-miss 0.986 prec 0.041\n"}
+,{"stream_name":"stdout","time":2099.942648147,"data":"[yolo_world     descriptive] battery AP50 0.872 | any-miss 0.250 prec 1.000 | type mAP50 0.110 type-miss 1.000 prec 0.000\n"}
+,{"stream_name":"stdout","time":2100.629215265,"data":"[yolo_world     generic    ] battery AP50 0.975 | any-miss 0.231 prec 0.989\n"}
+,{"stream_name":"stdout","time":2100.629244748,"data":"[yolo_world] 1.5 min\n"}
+,{"stream_name":"stdout","time":2100.656488154,"data":"model                  prompts     batAP50 anyMiss anyPrec typeAP50 typeMiss typePrec  pr-\u003epo\n"}
+,{"stream_name":"stdout","time":2100.656513802,"data":"---------------------------------------------------------------------------------------------\n"}
+,{"stream_name":"stdout","time":2100.656520966,"data":"owlv2                  names         0.589   0.660   0.896    0.317    1.000    0.000   0.007\n"}
+,{"stream_name":"stdout","time":2100.656526754,"data":"owlv2                  descriptive   0.851   0.489   0.963    0.184    0.997    0.333   0.030\n"}
+,{"stream_name":"stdout","time":2100.656531636,"data":"owlv2                  generic       0.357   0.932   0.960      -        -        -       -  \n"}
+,{"stream_name":"stdout","time":2100.656536307,"data":"grounding_dino         names         0.998   0.000   0.970    0.376    0.957    0.233   0.000\n"}
+,{"stream_name":"stdout","time":2100.656540961,"data":"grounding_dino         descriptive   0.942   0.001   0.953    0.397    0.993    0.417   0.148\n"}
+,{"stream_name":"stdout","time":2100.656546482,"data":"grounding_dino         generic       1.000   0.000   0.964      -        -        -       -  \n"}
+,{"stream_name":"stdout","time":2100.656552331,"data":"yolo_world             names         0.704   0.661   1.000    0.119    0.986    0.041   0.000\n"}
+,{"stream_name":"stdout","time":2100.656557879,"data":"yolo_world             descriptive   0.872   0.250   1.000    0.110    1.000    0.000   0.000\n"}
+,{"stream_name":"stdout","time":2100.656572931,"data":"yolo_world             generic       0.975   0.231   0.989      -        -        -       -  \n"}
+,{"stream_name":"stdout","time":2100.656576878,"data":"frcnn (trained)        -               -     0.000     -      0.975    0.028    0.954   0.156\n"}
+,{"stream_name":"stdout","time":2100.65658053,"data":"frcnn_rfs (trained)    -               -     0.000     -      0.977    0.024    0.940   0.141\n"}
+,{"stream_name":"stdout","time":2100.656584134,"data":"yolo11s (trained)      -               -     0.000     -      0.965    0.023    0.943   0.156\n"}
+,{"stream_name":"stdout","time":2100.656587994,"data":"rtdetr_l (trained)     -               -     0.000     -      0.996    0.000    0.939   0.000\n"}
+,{"stream_name":"stdout","time":2100.656597523,"data":"\n"}
+,{"stream_name":"stdout","time":2100.65660062,"data":"Precision target (0.90) reachable on validation? {'owlv2/names': (True, True), 'owlv2/descriptive': (True, True), 'owlv2/generic': (True, None), 'grounding_dino/names': (True, False), 'grounding_dino/descriptive': (True, False), 'grounding_dino/generic': (True, None), 'yolo_world/names': (True, False), 'yolo_world/descriptive': (True, False), 'yolo_world/generic': (True, None)}\n"}
+,{"stream_name":"stdout","time":2101.996786615,"data":"Results zip: /kaggle/working/E3_results.zip\n"}
+,{"stream_name":"stderr","time":2107.259675123,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2107.259710239,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2107.387501741,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2107.387525409,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2108.111310316,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2108.232061858,"data":"[NbConvertApp] Writing 437011 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2110.684550159,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2111.36519689,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":2111.365241337,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2111.365521391,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2111.365777556,"data":"[NbConvertApp] Writing 673786 bytes to __results__.html\n"}
+]

@@ -1,0 +1,231 @@
+{
+ "zero_shot": [
+  {
+   "model": "owlv2",
+   "prompts": "names",
+   "battery_AP50": 0.5887499761456607,
+   "battery_AP50_95": 0.516348491092426,
+   "any_miss": 0.6595744680851063,
+   "any_miss_CI": [
+    0.5630851063829787,
+    0.7645744680851063
+   ],
+   "any_precision": 0.8955223880597015,
+   "any_target_met_on_val": true,
+   "type_mAP50": 0.3171307370372273,
+   "type_miss": 1.0,
+   "type_miss_CI": [
+    1.0,
+    1.0
+   ],
+   "type_precision": 0.0,
+   "type_target_met_on_val": true,
+   "prism_as_pouch": 0.007407407407407408
+  },
+  {
+   "model": "owlv2",
+   "prompts": "descriptive",
+   "battery_AP50": 0.8509305999782832,
+   "battery_AP50_95": 0.7605147837932492,
+   "any_miss": 0.48936170212765956,
+   "any_miss_CI": [
+    0.39858156028368796,
+    0.5886524822695036
+   ],
+   "any_precision": 0.9625668449197861,
+   "any_target_met_on_val": true,
+   "type_mAP50": 0.1840050184783649,
+   "type_miss": 0.9971631205673759,
+   "type_miss_CI": [
+    0.9929078014184397,
+    1.0
+   ],
+   "type_precision": 0.3333333333333333,
+   "type_target_met_on_val": true,
+   "prism_as_pouch": 0.02962962962962963
+  },
+  {
+   "model": "owlv2",
+   "prompts": "generic",
+   "battery_AP50": 0.3574769032715787,
+   "battery_AP50_95": 0.30670447228897474,
+   "any_miss": 0.9319148936170213,
+   "any_miss_CI": [
+    0.8808510638297873,
+    0.9773049645390071
+   ],
+   "any_precision": 0.96,
+   "any_target_met_on_val": true,
+   "type_mAP50": null,
+   "type_miss": null,
+   "type_miss_CI": null,
+   "type_precision": null,
+   "type_target_met_on_val": null,
+   "prism_as_pouch": null
+  },
+  {
+   "model": "grounding_dino",
+   "prompts": "names",
+   "battery_AP50": 0.9975981629085628,
+   "battery_AP50_95": 0.9125948638161685,
+   "any_miss": 0.0,
+   "any_miss_CI": [
+    0.0,
+    0.0
+   ],
+   "any_precision": 0.9697386519944979,
+   "any_target_met_on_val": true,
+   "type_mAP50": 0.3762316813473688,
+   "type_miss": 0.9574468085106383,
+   "type_miss_CI": [
+    0.914822695035461,
+    0.9914893617021276
+   ],
+   "type_precision": 0.23255813953488372,
+   "type_target_met_on_val": false,
+   "prism_as_pouch": 0.0
+  },
+  {
+   "model": "grounding_dino",
+   "prompts": "descriptive",
+   "battery_AP50": 0.9422918397058243,
+   "battery_AP50_95": 0.856424809936404,
+   "any_miss": 0.0014184397163120568,
+   "any_miss_CI": [
+    0.0,
+    0.004255319148936176
+   ],
+   "any_precision": 0.952638700947226,
+   "any_target_met_on_val": true,
+   "type_mAP50": 0.3974227319322062,
+   "type_miss": 0.9929078014184397,
+   "type_miss_CI": [
+    0.9787234042553191,
+    1.0
+   ],
+   "type_precision": 0.4166666666666667,
+   "type_target_met_on_val": false,
+   "prism_as_pouch": 0.14814814814814814
+  },
+  {
+   "model": "grounding_dino",
+   "prompts": "generic",
+   "battery_AP50": 0.999985975934704,
+   "battery_AP50_95": 0.9010109230240435,
+   "any_miss": 0.0,
+   "any_miss_CI": [
+    0.0,
+    0.0
+   ],
+   "any_precision": 0.9644322845417237,
+   "any_target_met_on_val": true,
+   "type_mAP50": null,
+   "type_miss": null,
+   "type_miss_CI": null,
+   "type_precision": null,
+   "type_target_met_on_val": null,
+   "prism_as_pouch": null
+  },
+  {
+   "model": "yolo_world",
+   "prompts": "names",
+   "battery_AP50": 0.7040451196694026,
+   "battery_AP50_95": 0.6308673245371595,
+   "any_miss": 0.6609929078014184,
+   "any_miss_CI": [
+    0.5886170212765958,
+    0.7461347517730496
+   ],
+   "any_precision": 1.0,
+   "any_target_met_on_val": true,
+   "type_mAP50": 0.11853300457691876,
+   "type_miss": 0.9858156028368794,
+   "type_miss_CI": [
+    0.975886524822695,
+    0.9943262411347518
+   ],
+   "type_precision": 0.040983606557377046,
+   "type_target_met_on_val": false,
+   "prism_as_pouch": 0.0
+  },
+  {
+   "model": "yolo_world",
+   "prompts": "descriptive",
+   "battery_AP50": 0.8715693089643617,
+   "battery_AP50_95": 0.7803022215612538,
+   "any_miss": 0.24964539007092199,
+   "any_miss_CI": [
+    0.1716312056737589,
+    0.33333333333333337
+   ],
+   "any_precision": 1.0,
+   "any_target_met_on_val": true,
+   "type_mAP50": 0.11006135612988384,
+   "type_miss": 1.0,
+   "type_miss_CI": [
+    1.0,
+    1.0
+   ],
+   "type_precision": 0.0,
+   "type_target_met_on_val": false,
+   "prism_as_pouch": 0.0
+  },
+  {
+   "model": "yolo_world",
+   "prompts": "generic",
+   "battery_AP50": 0.9745026434186197,
+   "battery_AP50_95": 0.8576587808256022,
+   "any_miss": 0.23120567375886525,
+   "any_miss_CI": [
+    0.1716312056737589,
+    0.3021276595744681
+   ],
+   "any_precision": 0.9890510948905109,
+   "any_target_met_on_val": true,
+   "type_mAP50": null,
+   "type_miss": null,
+   "type_miss_CI": null,
+   "type_precision": null,
+   "type_target_met_on_val": null,
+   "prism_as_pouch": null
+  }
+ ],
+ "trained_reference": [
+  {
+   "model": "frcnn (trained)",
+   "prompts": "-",
+   "type_mAP50": 0.9750532188794406,
+   "any_miss": 0.0,
+   "type_miss": 0.028368794326241134,
+   "type_precision": 0.9540389972144847,
+   "prism_as_pouch": 0.15555555555555556
+  },
+  {
+   "model": "frcnn_rfs (trained)",
+   "prompts": "-",
+   "type_mAP50": 0.9773629255782015,
+   "any_miss": 0.0,
+   "type_miss": 0.024113475177304965,
+   "type_precision": 0.9398907103825137,
+   "prism_as_pouch": 0.14074074074074075
+  },
+  {
+   "model": "yolo11s (trained)",
+   "prompts": "-",
+   "type_mAP50": 0.965324660932808,
+   "any_miss": 0.0,
+   "type_miss": 0.02269503546099291,
+   "type_precision": 0.9425444596443229,
+   "prism_as_pouch": 0.15555555555555556
+  },
+  {
+   "model": "rtdetr_l (trained)",
+   "prompts": "-",
+   "type_mAP50": 0.9960417124981937,
+   "any_miss": 0.0,
+   "type_miss": 0.0,
+   "type_precision": 0.9387483355525965,
+   "prism_as_pouch": 0.0
+  }
+ ]
+}
