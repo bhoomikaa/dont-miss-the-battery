@@ -1,0 +1,18 @@
+{
+ "frcnn": {
+  "class_agnostic": 0.52,
+  "class_aware": 0.35
+ },
+ "frcnn_rfs": {
+  "class_agnostic": 0.54,
+  "class_aware": 0.35
+ },
+ "yolo11s": {
+  "class_agnostic": 0.36,
+  "class_aware": 0.07
+ },
+ "rtdetr_l": {
+  "class_agnostic": 0.06,
+  "class_aware": 0.23
+ }
+}

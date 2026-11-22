@@ -1,0 +1,1420 @@
+{
+ "summary": {
+  "n": {
+   "correct": 114,
+   "as_pouch": 21,
+   "other_type": 0,
+   "missed": 0
+  },
+  "threshold": 0.52,
+  "gradcam_frcnn_in_box": {
+   "correct": {
+    "mean": 0.1403570664687115,
+    "median": 0.11913658306002617
+   },
+   "as_pouch": {
+    "mean": 0.12151303913976465,
+    "median": 0.1082024797797203
+   },
+   "other_type": {
+    "mean": null,
+    "median": null
+   },
+   "missed": {
+    "mean": null,
+    "median": null
+   },
+   "p_value_correct_vs_as_pouch": 0.1137657330687514
+  },
+  "eigencam_frcnn_in_box": {
+   "correct": {
+    "mean": 0.6089001880179868,
+    "median": 0.670081377029419
+   },
+   "as_pouch": {
+    "mean": 0.7708164595422291,
+    "median": 0.8174222707748413
+   },
+   "other_type": {
+    "mean": null,
+    "median": null
+   },
+   "missed": {
+    "mean": null,
+    "median": null
+   },
+   "p_value_correct_vs_as_pouch": 3.4197389229117576e-05
+  },
+  "eigencam_rtdetr_in_box": {
+   "correct": {
+    "mean": 0.038419954797351046,
+    "median": 0.022163767367601395
+   },
+   "as_pouch": {
+    "mean": 0.0479461069640127,
+    "median": 0.03121803142130375
+   },
+   "other_type": {
+    "mean": null,
+    "median": null
+   },
+   "missed": {
+    "mean": null,
+    "median": null
+   },
+   "p_value_correct_vs_as_pouch": 0.5317492105740422
+  }
+ },
+ "rows": [
+  {
+   "image_id": 1081,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.566064715385437,
+   "eigencam_rtdetr_in_box": 0.016990020871162415,
+   "gradcam_frcnn_in_box": 0.06366109102964401,
+   "score": 0.999313473701477,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1082,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.43162739276885986,
+   "eigencam_rtdetr_in_box": 0.026724835857748985,
+   "gradcam_frcnn_in_box": 0.11021647602319717,
+   "score": 0.9995989203453064,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1084,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.757375955581665,
+   "eigencam_rtdetr_in_box": 0.011764226481318474,
+   "gradcam_frcnn_in_box": 0.1386200189590454,
+   "score": 0.9986795783042908,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1086,
+   "battery": "8_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7759360671043396,
+   "eigencam_rtdetr_in_box": 0.016601985320448875,
+   "gradcam_frcnn_in_box": 0.2025025188922882,
+   "score": 0.9496590495109558,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1087,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.4797252416610718,
+   "eigencam_rtdetr_in_box": 0.016963131725788116,
+   "gradcam_frcnn_in_box": 0.07739722728729248,
+   "score": 0.9990853071212769,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1093,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.0,
+   "eigencam_rtdetr_in_box": 0.06327833235263824,
+   "gradcam_frcnn_in_box": 0.0892399325966835,
+   "score": 0.9986804127693176,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1095,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6987505555152893,
+   "eigencam_rtdetr_in_box": 0.06671028584241867,
+   "gradcam_frcnn_in_box": 0.13363739848136902,
+   "score": 0.9988095760345459,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1101,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8700916767120361,
+   "eigencam_rtdetr_in_box": 0.02948176860809326,
+   "gradcam_frcnn_in_box": 0.2796936631202698,
+   "score": 0.9972667694091797,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1102,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7215049266815186,
+   "eigencam_rtdetr_in_box": 0.19143693149089813,
+   "gradcam_frcnn_in_box": 0.2017432302236557,
+   "score": 0.9993194341659546,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1103,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8218134641647339,
+   "eigencam_rtdetr_in_box": 0.07637592405080795,
+   "gradcam_frcnn_in_box": 0.15656663477420807,
+   "score": 0.9988620281219482,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1104,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7265673279762268,
+   "eigencam_rtdetr_in_box": 0.044776421040296555,
+   "gradcam_frcnn_in_box": 0.20346571505069733,
+   "score": 0.997928261756897,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1106,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.706700325012207,
+   "eigencam_rtdetr_in_box": 0.07897526025772095,
+   "gradcam_frcnn_in_box": 0.1999872326850891,
+   "score": 0.9988306164741516,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1107,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8191221952438354,
+   "eigencam_rtdetr_in_box": 0.039267223328351974,
+   "gradcam_frcnn_in_box": 0.1652669757604599,
+   "score": 0.998779833316803,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1108,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.4543795883655548,
+   "eigencam_rtdetr_in_box": 0.008599472232162952,
+   "gradcam_frcnn_in_box": 0.11021402478218079,
+   "score": 0.9970165491104126,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1111,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.78902667760849,
+   "eigencam_rtdetr_in_box": 0.02732892334461212,
+   "gradcam_frcnn_in_box": 0.12470618635416031,
+   "score": 0.9988815188407898,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1112,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6833722591400146,
+   "eigencam_rtdetr_in_box": 0.015172059647738934,
+   "gradcam_frcnn_in_box": 0.16611582040786743,
+   "score": 0.9984493255615234,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1117,
+   "battery": "8_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.7766026854515076,
+   "eigencam_rtdetr_in_box": 0.0349530354142189,
+   "gradcam_frcnn_in_box": 0.04265847057104111,
+   "score": 0.9511343240737915,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1118,
+   "battery": "8_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.721831738948822,
+   "eigencam_rtdetr_in_box": 0.008650433272123337,
+   "gradcam_frcnn_in_box": 0.1859981119632721,
+   "score": 0.9674990773200989,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1119,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8141769766807556,
+   "eigencam_rtdetr_in_box": 0.013940871693193913,
+   "gradcam_frcnn_in_box": 0.16816897690296173,
+   "score": 0.9985594153404236,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1120,
+   "battery": "8_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.702812910079956,
+   "eigencam_rtdetr_in_box": 0.007245374843478203,
+   "gradcam_frcnn_in_box": 0.02205037511885166,
+   "score": 0.9462606310844421,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1121,
+   "battery": "8_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5234852433204651,
+   "eigencam_rtdetr_in_box": 0.021306080743670464,
+   "gradcam_frcnn_in_box": 0.13666030764579773,
+   "score": 0.911841094493866,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1123,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7843518853187561,
+   "eigencam_rtdetr_in_box": 0.013380466029047966,
+   "gradcam_frcnn_in_box": 0.1583869457244873,
+   "score": 0.9984418749809265,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1124,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6319847106933594,
+   "eigencam_rtdetr_in_box": 0.05280354991555214,
+   "gradcam_frcnn_in_box": 0.1053212508559227,
+   "score": 0.9990359544754028,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1128,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8267762660980225,
+   "eigencam_rtdetr_in_box": 0.009634565562009811,
+   "gradcam_frcnn_in_box": 0.09110087156295776,
+   "score": 0.998329222202301,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1132,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7565972208976746,
+   "eigencam_rtdetr_in_box": 0.01714012213051319,
+   "gradcam_frcnn_in_box": 0.11131162196397781,
+   "score": 0.9990248680114746,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1134,
+   "battery": "8_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.2627919614315033,
+   "eigencam_rtdetr_in_box": 0.009333644062280655,
+   "gradcam_frcnn_in_box": 0.0745014026761055,
+   "score": 0.9900617599487305,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1137,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5700956583023071,
+   "eigencam_rtdetr_in_box": 0.11161245405673981,
+   "gradcam_frcnn_in_box": 0.13959012925624847,
+   "score": 0.9989056587219238,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1138,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6740454435348511,
+   "eigencam_rtdetr_in_box": 0.035307034850120544,
+   "gradcam_frcnn_in_box": 0.1534019410610199,
+   "score": 0.9966087341308594,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1139,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7587916851043701,
+   "eigencam_rtdetr_in_box": 0.02834666334092617,
+   "gradcam_frcnn_in_box": 0.09477592259645462,
+   "score": 0.9984993934631348,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1140,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.23108655214309692,
+   "eigencam_rtdetr_in_box": 0.01594027318060398,
+   "gradcam_frcnn_in_box": 0.1023438572883606,
+   "score": 0.9992407560348511,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1142,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6620087027549744,
+   "eigencam_rtdetr_in_box": 0.012051635421812534,
+   "gradcam_frcnn_in_box": 0.07849432528018951,
+   "score": 0.9988551139831543,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1146,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.2215162068605423,
+   "eigencam_rtdetr_in_box": 0.022133035585284233,
+   "gradcam_frcnn_in_box": 0.11302778124809265,
+   "score": 0.9992392063140869,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1150,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5831226110458374,
+   "eigencam_rtdetr_in_box": 0.006483957637101412,
+   "gradcam_frcnn_in_box": 0.048792582005262375,
+   "score": 0.9988797307014465,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1153,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5940714478492737,
+   "eigencam_rtdetr_in_box": 0.0063263289630413055,
+   "gradcam_frcnn_in_box": 0.11446855962276459,
+   "score": 0.9981265664100647,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1155,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.640581488609314,
+   "eigencam_rtdetr_in_box": 0.012719937600195408,
+   "gradcam_frcnn_in_box": 0.09883308410644531,
+   "score": 0.9989444613456726,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1158,
+   "battery": "8_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.3237144351005554,
+   "eigencam_rtdetr_in_box": 0.008019092492759228,
+   "gradcam_frcnn_in_box": 0.23208022117614746,
+   "score": 0.778200089931488,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1160,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6737672686576843,
+   "eigencam_rtdetr_in_box": 0.02525632455945015,
+   "gradcam_frcnn_in_box": 0.1633526235818863,
+   "score": 0.9977794289588928,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1164,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7865179777145386,
+   "eigencam_rtdetr_in_box": 0.013173211365938187,
+   "gradcam_frcnn_in_box": 0.09448875486850739,
+   "score": 0.9979362487792969,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1168,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7279965877532959,
+   "eigencam_rtdetr_in_box": 0.015122225508093834,
+   "gradcam_frcnn_in_box": 0.10009485483169556,
+   "score": 0.9989100694656372,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1169,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7338810563087463,
+   "eigencam_rtdetr_in_box": 0.0,
+   "gradcam_frcnn_in_box": 0.08755011856555939,
+   "score": 0.998779833316803,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1172,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.858641505241394,
+   "eigencam_rtdetr_in_box": 0.022837620228528976,
+   "gradcam_frcnn_in_box": 0.2981772720813751,
+   "score": 0.9981334805488586,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1179,
+   "battery": "8_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7667748332023621,
+   "eigencam_rtdetr_in_box": 0.022194499149918556,
+   "gradcam_frcnn_in_box": 0.13325174152851105,
+   "score": 0.9855076670646667,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1180,
+   "battery": "8_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.8071867227554321,
+   "eigencam_rtdetr_in_box": 0.010765657760202885,
+   "gradcam_frcnn_in_box": 0.3663632571697235,
+   "score": 0.8608025908470154,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1181,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7208907008171082,
+   "eigencam_rtdetr_in_box": 0.03431552276015282,
+   "gradcam_frcnn_in_box": 0.10942348092794418,
+   "score": 0.9986119270324707,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1182,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8291301727294922,
+   "eigencam_rtdetr_in_box": 0.019255338236689568,
+   "gradcam_frcnn_in_box": 0.17243821918964386,
+   "score": 0.9980996251106262,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1185,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8544018268585205,
+   "eigencam_rtdetr_in_box": 0.019179707393050194,
+   "gradcam_frcnn_in_box": 0.1381017118692398,
+   "score": 0.9986494183540344,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1188,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.557142436504364,
+   "eigencam_rtdetr_in_box": 0.0069574834778904915,
+   "gradcam_frcnn_in_box": 0.18350335955619812,
+   "score": 0.9984801411628723,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1189,
+   "battery": "8_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.34330788254737854,
+   "eigencam_rtdetr_in_box": 0.03121803142130375,
+   "gradcam_frcnn_in_box": 0.04071338102221489,
+   "score": 0.9331114888191223,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1192,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7058336138725281,
+   "eigencam_rtdetr_in_box": 0.008909991011023521,
+   "gradcam_frcnn_in_box": 0.07472081482410431,
+   "score": 0.9986109733581543,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1195,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5186538696289062,
+   "eigencam_rtdetr_in_box": 0.009078608825802803,
+   "gradcam_frcnn_in_box": 0.08900658786296844,
+   "score": 0.9993392825126648,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1196,
+   "battery": "8_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.0,
+   "eigencam_rtdetr_in_box": 0.021105356514453888,
+   "gradcam_frcnn_in_box": 0.252856969833374,
+   "score": 0.9006437063217163,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1199,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.503243625164032,
+   "eigencam_rtdetr_in_box": 0.010317971929907799,
+   "gradcam_frcnn_in_box": 0.08825740218162537,
+   "score": 0.998456597328186,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1200,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5874115228652954,
+   "eigencam_rtdetr_in_box": 0.017910316586494446,
+   "gradcam_frcnn_in_box": 0.18820255994796753,
+   "score": 0.9986010193824768,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1202,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6147493124008179,
+   "eigencam_rtdetr_in_box": 0.021119987592101097,
+   "gradcam_frcnn_in_box": 0.2564765214920044,
+   "score": 0.9989105463027954,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1204,
+   "battery": "8_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6928339004516602,
+   "eigencam_rtdetr_in_box": 0.004607916809618473,
+   "gradcam_frcnn_in_box": 0.23124836385250092,
+   "score": 0.9395387768745422,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1205,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8175919651985168,
+   "eigencam_rtdetr_in_box": 0.025227759033441544,
+   "gradcam_frcnn_in_box": 0.16008538007736206,
+   "score": 0.9990094900131226,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1209,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.2931150794029236,
+   "eigencam_rtdetr_in_box": 0.021758338436484337,
+   "gradcam_frcnn_in_box": 0.09344204515218735,
+   "score": 0.9981063604354858,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1210,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8118272423744202,
+   "eigencam_rtdetr_in_box": 0.04401499778032303,
+   "gradcam_frcnn_in_box": 0.1627853363752365,
+   "score": 0.9990449547767639,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1211,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6973915696144104,
+   "eigencam_rtdetr_in_box": 0.006586097180843353,
+   "gradcam_frcnn_in_box": 0.19280841946601868,
+   "score": 0.9978171586990356,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1213,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6176100969314575,
+   "eigencam_rtdetr_in_box": 0.06055843457579613,
+   "gradcam_frcnn_in_box": 0.11310064047574997,
+   "score": 0.998512327671051,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1214,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5253531336784363,
+   "eigencam_rtdetr_in_box": 0.013219468295574188,
+   "gradcam_frcnn_in_box": 0.11557216197252274,
+   "score": 0.9982509016990662,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1216,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6060782670974731,
+   "eigencam_rtdetr_in_box": 0.016928907483816147,
+   "gradcam_frcnn_in_box": 0.26057320833206177,
+   "score": 0.9991235136985779,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1219,
+   "battery": "8_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8057581782341003,
+   "eigencam_rtdetr_in_box": 0.0965542420744896,
+   "gradcam_frcnn_in_box": 0.3236045241355896,
+   "score": 0.6594220995903015,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1220,
+   "battery": "8_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5905604362487793,
+   "eigencam_rtdetr_in_box": 0.018674038350582123,
+   "gradcam_frcnn_in_box": 0.13949400186538696,
+   "score": 0.9072746634483337,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1221,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7563245892524719,
+   "eigencam_rtdetr_in_box": 0.024943551048636436,
+   "gradcam_frcnn_in_box": 0.0874151811003685,
+   "score": 0.9986187219619751,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1222,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6556465029716492,
+   "eigencam_rtdetr_in_box": 0.00479414127767086,
+   "gradcam_frcnn_in_box": 0.1706322282552719,
+   "score": 0.9979590177536011,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1224,
+   "battery": "7_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7324185967445374,
+   "eigencam_rtdetr_in_box": 0.014040923677384853,
+   "gradcam_frcnn_in_box": 0.12804320454597473,
+   "score": 0.9986429810523987,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1225,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.4595027565956116,
+   "eigencam_rtdetr_in_box": 0.030799707397818565,
+   "gradcam_frcnn_in_box": 0.07277029752731323,
+   "score": 0.9988101720809937,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1226,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.18290287256240845,
+   "eigencam_rtdetr_in_box": 0.021946892142295837,
+   "gradcam_frcnn_in_box": 0.16375146806240082,
+   "score": 0.996606707572937,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1228,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6550239324569702,
+   "eigencam_rtdetr_in_box": 0.020647570490837097,
+   "gradcam_frcnn_in_box": 0.12658929824829102,
+   "score": 0.9991589784622192,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1229,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7045023441314697,
+   "eigencam_rtdetr_in_box": 0.06608600914478302,
+   "gradcam_frcnn_in_box": 0.11523597687482834,
+   "score": 0.9990864992141724,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1235,
+   "battery": "9_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8176014423370361,
+   "eigencam_rtdetr_in_box": 0.016497191041707993,
+   "gradcam_frcnn_in_box": 0.19104130566120148,
+   "score": 0.9989525079727173,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1237,
+   "battery": "8_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8217183351516724,
+   "eigencam_rtdetr_in_box": 0.022216329351067543,
+   "gradcam_frcnn_in_box": 0.3971787691116333,
+   "score": 0.738774299621582,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1240,
+   "battery": "2_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.42889559268951416,
+   "eigencam_rtdetr_in_box": 0.03543682396411896,
+   "gradcam_frcnn_in_box": 0.0791243314743042,
+   "score": 0.9991326928138733,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1245,
+   "battery": "3_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.459656685590744,
+   "eigencam_rtdetr_in_box": 0.016198739409446716,
+   "gradcam_frcnn_in_box": 0.07867927104234695,
+   "score": 0.9983793497085571,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1247,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.8981555700302124,
+   "eigencam_rtdetr_in_box": 0.19777843356132507,
+   "gradcam_frcnn_in_box": 0.14726713299751282,
+   "score": 0.999285876750946,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1248,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5469555854797363,
+   "eigencam_rtdetr_in_box": 0.014596719294786453,
+   "gradcam_frcnn_in_box": 0.16883200407028198,
+   "score": 0.9983945488929749,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1250,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8421004414558411,
+   "eigencam_rtdetr_in_box": 0.44197317957878113,
+   "gradcam_frcnn_in_box": 0.28706932067871094,
+   "score": 0.9973741769790649,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1252,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.901716947555542,
+   "eigencam_rtdetr_in_box": 0.05387601628899574,
+   "gradcam_frcnn_in_box": 0.1439964771270752,
+   "score": 0.9974061846733093,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1255,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.0,
+   "eigencam_rtdetr_in_box": 0.018209462985396385,
+   "gradcam_frcnn_in_box": 0.1910182684659958,
+   "score": 0.9977147579193115,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1261,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6531421542167664,
+   "eigencam_rtdetr_in_box": 0.04896502569317818,
+   "gradcam_frcnn_in_box": 0.09826162457466125,
+   "score": 0.997560977935791,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1264,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5247708559036255,
+   "eigencam_rtdetr_in_box": 0.03931938484311104,
+   "gradcam_frcnn_in_box": 0.06804782897233963,
+   "score": 0.9986989498138428,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1265,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5649182796478271,
+   "eigencam_rtdetr_in_box": 0.0,
+   "gradcam_frcnn_in_box": 0.0987001359462738,
+   "score": 0.998044490814209,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1271,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8187432885169983,
+   "eigencam_rtdetr_in_box": 0.1617371141910553,
+   "gradcam_frcnn_in_box": 0.11497944593429565,
+   "score": 0.994961142539978,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1274,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.871481716632843,
+   "eigencam_rtdetr_in_box": 0.098729208111763,
+   "gradcam_frcnn_in_box": 0.08628180623054504,
+   "score": 0.9614349007606506,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1275,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8366223573684692,
+   "eigencam_rtdetr_in_box": 0.071077361702919,
+   "gradcam_frcnn_in_box": 0.3471328616142273,
+   "score": 0.9978043437004089,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1277,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7885427474975586,
+   "eigencam_rtdetr_in_box": 0.04630962014198303,
+   "gradcam_frcnn_in_box": 0.14186815917491913,
+   "score": 0.9965324401855469,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1281,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.4825223386287689,
+   "eigencam_rtdetr_in_box": 0.01983524113893509,
+   "gradcam_frcnn_in_box": 0.11375849694013596,
+   "score": 0.9948804378509521,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1284,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.7094315886497498,
+   "eigencam_rtdetr_in_box": 0.017754560336470604,
+   "gradcam_frcnn_in_box": 0.0864112451672554,
+   "score": 0.9936677813529968,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1286,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6663954854011536,
+   "eigencam_rtdetr_in_box": 0.0,
+   "gradcam_frcnn_in_box": 0.09784577786922455,
+   "score": 0.9978482723236084,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1287,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.8774402737617493,
+   "eigencam_rtdetr_in_box": 0.0,
+   "gradcam_frcnn_in_box": 0.19906994700431824,
+   "score": 0.9951571822166443,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1289,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6551865935325623,
+   "eigencam_rtdetr_in_box": 0.05233314633369446,
+   "gradcam_frcnn_in_box": 0.16090476512908936,
+   "score": 0.9984908103942871,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1293,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.44989287853240967,
+   "eigencam_rtdetr_in_box": 0.04845200479030609,
+   "gradcam_frcnn_in_box": 0.09512694180011749,
+   "score": 0.9982061386108398,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1295,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.7723968029022217,
+   "eigencam_rtdetr_in_box": 0.022655021399259567,
+   "gradcam_frcnn_in_box": 0.13950999081134796,
+   "score": 0.9970446228981018,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1297,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8168455362319946,
+   "eigencam_rtdetr_in_box": 0.06949674338102341,
+   "gradcam_frcnn_in_box": 0.2096959948539734,
+   "score": 0.9719297289848328,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1299,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.9124348759651184,
+   "eigencam_rtdetr_in_box": 0.08656195551156998,
+   "gradcam_frcnn_in_box": 0.181906059384346,
+   "score": 0.9990506768226624,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1309,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8232042193412781,
+   "eigencam_rtdetr_in_box": 0.0802823007106781,
+   "gradcam_frcnn_in_box": 0.10608217865228653,
+   "score": 0.9988139867782593,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1310,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.37522074580192566,
+   "eigencam_rtdetr_in_box": 0.023704124614596367,
+   "gradcam_frcnn_in_box": 0.10546435415744781,
+   "score": 0.9971259236335754,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1313,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7630675435066223,
+   "eigencam_rtdetr_in_box": 0.043472036719322205,
+   "gradcam_frcnn_in_box": 0.09539634734392166,
+   "score": 0.9987032413482666,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1315,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.8413076996803284,
+   "eigencam_rtdetr_in_box": 0.06681639701128006,
+   "gradcam_frcnn_in_box": 0.06539219617843628,
+   "score": 0.9988346695899963,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1316,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.40503478050231934,
+   "eigencam_rtdetr_in_box": 0.01299773808568716,
+   "gradcam_frcnn_in_box": 0.09108467400074005,
+   "score": 0.997890293598175,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1324,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7142148017883301,
+   "eigencam_rtdetr_in_box": 0.010312930680811405,
+   "gradcam_frcnn_in_box": 0.14663077890872955,
+   "score": 0.998725950717926,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1326,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.8220348358154297,
+   "eigencam_rtdetr_in_box": 0.04004371166229248,
+   "gradcam_frcnn_in_box": 0.1082024797797203,
+   "score": 0.9968159794807434,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1328,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7654064297676086,
+   "eigencam_rtdetr_in_box": 0.014743848703801632,
+   "gradcam_frcnn_in_box": 0.17431607842445374,
+   "score": 0.9980083107948303,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1332,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.41015923023223877,
+   "eigencam_rtdetr_in_box": 0.030593661591410637,
+   "gradcam_frcnn_in_box": 0.0677933543920517,
+   "score": 0.9985532164573669,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1335,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6747397780418396,
+   "eigencam_rtdetr_in_box": 0.045466091483831406,
+   "gradcam_frcnn_in_box": 0.07541707158088684,
+   "score": 0.9983830451965332,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1336,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6012321710586548,
+   "eigencam_rtdetr_in_box": 0.01967383362352848,
+   "gradcam_frcnn_in_box": 0.07590096443891525,
+   "score": 0.9990703463554382,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1339,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.0,
+   "eigencam_rtdetr_in_box": 0.01872272603213787,
+   "gradcam_frcnn_in_box": 0.07433836907148361,
+   "score": 0.9994331002235413,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1344,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.15496717393398285,
+   "eigencam_rtdetr_in_box": 0.05047881230711937,
+   "gradcam_frcnn_in_box": 0.07759148627519608,
+   "score": 0.9988541603088379,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1351,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.910876452922821,
+   "eigencam_rtdetr_in_box": 0.05007539317011833,
+   "gradcam_frcnn_in_box": 0.12393081933259964,
+   "score": 0.9909451007843018,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1355,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6241430044174194,
+   "eigencam_rtdetr_in_box": 0.030384156852960587,
+   "gradcam_frcnn_in_box": 0.21054309606552124,
+   "score": 0.9990836381912231,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1357,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7016182541847229,
+   "eigencam_rtdetr_in_box": 0.05802743136882782,
+   "gradcam_frcnn_in_box": 0.1227010041475296,
+   "score": 0.9965840578079224,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1358,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7211369276046753,
+   "eigencam_rtdetr_in_box": 0.0,
+   "gradcam_frcnn_in_box": 0.1301100254058838,
+   "score": 0.9986680746078491,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1359,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8110311627388,
+   "eigencam_rtdetr_in_box": 0.12533169984817505,
+   "gradcam_frcnn_in_box": 0.09693777561187744,
+   "score": 0.997188150882721,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1361,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6575387716293335,
+   "eigencam_rtdetr_in_box": 0.0,
+   "gradcam_frcnn_in_box": 0.0918634831905365,
+   "score": 0.9975540041923523,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1362,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.8770575523376465,
+   "eigencam_rtdetr_in_box": 0.000834538834169507,
+   "gradcam_frcnn_in_box": 0.06738147884607315,
+   "score": 0.9995241165161133,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1365,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.6804760694503784,
+   "eigencam_rtdetr_in_box": 0.022948075085878372,
+   "gradcam_frcnn_in_box": 0.09466120600700378,
+   "score": 0.9962325692176819,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1371,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.741947591304779,
+   "eigencam_rtdetr_in_box": 0.008156063966453075,
+   "gradcam_frcnn_in_box": 0.08222769945859909,
+   "score": 0.9975969195365906,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1373,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 1.7422217979401466e-07,
+   "eigencam_rtdetr_in_box": 0.024266624823212624,
+   "gradcam_frcnn_in_box": 0.056018006056547165,
+   "score": 0.9943695664405823,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1374,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7642440795898438,
+   "eigencam_rtdetr_in_box": 0.054484639316797256,
+   "gradcam_frcnn_in_box": 0.16394855082035065,
+   "score": 0.9886356592178345,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1375,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5913249254226685,
+   "eigencam_rtdetr_in_box": 0.010626708157360554,
+   "gradcam_frcnn_in_box": 0.18133273720741272,
+   "score": 0.9989820122718811,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1377,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5056852698326111,
+   "eigencam_rtdetr_in_box": 0.042344700545072556,
+   "gradcam_frcnn_in_box": 0.14449694752693176,
+   "score": 0.9955019354820251,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1378,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.4534086287021637,
+   "eigencam_rtdetr_in_box": 0.025096071884036064,
+   "gradcam_frcnn_in_box": 0.09977513551712036,
+   "score": 0.9975696206092834,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1385,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.5596835017204285,
+   "eigencam_rtdetr_in_box": 0.03654976189136505,
+   "gradcam_frcnn_in_box": 0.10273957997560501,
+   "score": 0.9971107244491577,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1390,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.0,
+   "eigencam_rtdetr_in_box": 0.01945701241493225,
+   "gradcam_frcnn_in_box": 0.12673546373844147,
+   "score": 0.9988088607788086,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1391,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.7821476459503174,
+   "eigencam_rtdetr_in_box": 0.12614166736602783,
+   "gradcam_frcnn_in_box": 0.09612534195184708,
+   "score": 0.9963215589523315,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1393,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8303498029708862,
+   "eigencam_rtdetr_in_box": 0.07244469970464706,
+   "gradcam_frcnn_in_box": 0.2402847707271576,
+   "score": 0.9940989017486572,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1394,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.8367599248886108,
+   "eigencam_rtdetr_in_box": 0.1096658781170845,
+   "gradcam_frcnn_in_box": 0.17892757058143616,
+   "score": 0.999006450176239,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1398,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8106399774551392,
+   "eigencam_rtdetr_in_box": 0.12321433424949646,
+   "gradcam_frcnn_in_box": 0.10477133840322495,
+   "score": 0.9979541301727295,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1399,
+   "battery": "16_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7979741096496582,
+   "eigencam_rtdetr_in_box": 0.1776864379644394,
+   "gradcam_frcnn_in_box": 0.11460129916667938,
+   "score": 0.9949567914009094,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1400,
+   "battery": "22_pri",
+   "outcome": "as_pouch",
+   "eigencam_frcnn_in_box": 0.8174222707748413,
+   "eigencam_rtdetr_in_box": 0.025613224133849144,
+   "gradcam_frcnn_in_box": 0.11285857856273651,
+   "score": 0.9741768836975098,
+   "pred": "pouch"
+  },
+  {
+   "image_id": 1405,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 1.8736321862888872e-06,
+   "eigencam_rtdetr_in_box": 0.03739443048834801,
+   "gradcam_frcnn_in_box": 0.09820710867643356,
+   "score": 0.9989781379699707,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1406,
+   "battery": "17_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.48243191838264465,
+   "eigencam_rtdetr_in_box": 0.0028908862732350826,
+   "gradcam_frcnn_in_box": 0.09628158062696457,
+   "score": 0.9990286827087402,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1407,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.7703738808631897,
+   "eigencam_rtdetr_in_box": 0.07966358214616776,
+   "gradcam_frcnn_in_box": 0.09259744733572006,
+   "score": 0.9986860156059265,
+   "pred": "prismatic"
+  },
+  {
+   "image_id": 1409,
+   "battery": "15_pri",
+   "outcome": "correct",
+   "eigencam_frcnn_in_box": 0.8488589525222778,
+   "eigencam_rtdetr_in_box": 0.08824536949396133,
+   "gradcam_frcnn_in_box": 0.14597080647945404,
+   "score": 0.9983118772506714,
+   "pred": "prismatic"
+  }
+ ]
+}
