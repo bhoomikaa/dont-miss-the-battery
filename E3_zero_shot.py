@@ -1,6 +1,6 @@
 # %% [markdown]
 # # Don't Miss the Battery: E3 zero-shot detection (no training on RecyBat24)
-# **Bhoomika Lnu, Group 3, DATA-255**
+# **Group 3 (Bhavyasree Kondi, Bhoomika Lnu, Sanjana Reddy Katham, Sharan Somshekhar Patil), DATA-255**
 #
 # Can an open-vocabulary detector find batteries from a text prompt alone, with no RecyBat24 training? This
 # matters for recycling plants that meet new battery shapes the trained model has never seen. Three zero-shot

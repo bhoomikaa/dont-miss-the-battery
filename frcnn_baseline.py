@@ -1,6 +1,6 @@
 # %% [markdown]
 # # Don't Miss the Battery: Faster R-CNN baseline (E1) + first safety metrics (E2 preview)
-# **Bhoomika Lnu, Group 3, DATA-255**
+# **Group 3 (Bhavyasree Kondi, Bhoomika Lnu, Sanjana Reddy Katham, Sharan Somshekhar Patil), DATA-255**
 #
 # Steps: download RecyBat24, EDA, leak-free val/test split, fine-tune Faster R-CNN ResNet-50-FPN,
 # COCO metrics, then a threshold sweep for missed-battery rate at precision 0.90 and cost-weighted error.

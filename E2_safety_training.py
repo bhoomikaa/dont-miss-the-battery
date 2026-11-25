@@ -1,6 +1,6 @@
 # %% [markdown]
 # # Don't Miss the Battery: E2 safety-aware training (Faster R-CNN)
-# **Bhoomika Lnu, Group 3, DATA-255**
+# **Group 3 (Bhavyasree Kondi, Bhoomika Lnu, Sanjana Reddy Katham, Sharan Somshekhar Patil), DATA-255**
 #
 # Trains five Faster R-CNN ResNet-50-FPN variants on the same leak-free split and compares them on the
 # safety metrics:

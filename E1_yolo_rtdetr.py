@@ -1,6 +1,6 @@
 # %% [markdown]
 # # Don't Miss the Battery: E1 detector comparison (YOLO11-s and RT-DETR-l)
-# **Bhoomika Lnu, Group 3, DATA-255**
+# **Group 3 (Bhavyasree Kondi, Bhoomika Lnu, Sanjana Reddy Katham, Sharan Somshekhar Patil), DATA-255**
 #
 # Trains two more detector families on the **same leak-free split** as the Faster R-CNN runs and scores them
 # with the **same safety evaluation** (thresholds picked on validation, applied once to test, 95% intervals
