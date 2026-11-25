@@ -1,0 +1,106 @@
+torch 2.15.0+cpu | torchvision 0.29.2+cpu | device cpu
+WARNING: no GPU. Runtime > Change runtime type > T4 GPU
+Outputs -> C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\run_E3\outputs\E3_zero_shot
+train | images: 1421 | boxes: 1437
+val | images: 1407 | boxes: 1434
+Classes: ['cylindric', 'pouch', 'prismatic']
+Loaded the E2 (Faster R-CNN) split from Drive
+val 702 imgs / 47 batteries | test 705 imgs / 47 batteries
+8 12 12
+images: 12 val | 12 test
+C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\bhoom\.cache\huggingface\hub\models--google--owlv2-base-patch16-ensemble. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\bhoom\.cache\huggingface\hub. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+[owlv2          names      ] battery AP50 0.751 | any-miss 0.833 prec 1.000 | type mAP50 0.275 type-miss 1.000 prec 0.000
+[owlv2          descriptive] battery AP50 0.858 | any-miss 0.417 prec 1.000 | type mAP50 0.248 type-miss 1.000 prec 0.000
+[owlv2          generic    ] battery AP50 0.624 | any-miss 0.917 prec 1.000
+[owlv2] 5.8 min
+C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\bhoom\.cache\huggingface\hub\models--IDEA-Research--grounding-dino-tiny. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+[grounding_dino names      ] battery AP50 1.000 | any-miss 0.833 prec 1.000 | type mAP50 0.407 type-miss 0.917 prec 0.200
+[grounding_dino descriptive] battery AP50 0.948 | any-miss 0.250 prec 1.000 | type mAP50 0.414 type-miss 0.833 prec 0.125
+[grounding_dino generic    ] battery AP50 1.000 | any-miss 0.000 prec 1.000
+[grounding_dino] 15.6 min
+[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 0% ──────────── 50.6KB/24.7MB 100.9KB/s 0.2s<4:10[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 5% ╸─────────── 1.3/24.7MB 12.3MB/s 0.3s<1.9s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 19% ━━────────── 4.8/24.7MB 35.0MB/s 0.4s<0.6s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 33% ━━━╸──────── 8.2/24.7MB 30.1MB/s 0.5s<0.5s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 52% ━━━━━━────── 13.0/24.7MB 46.4MB/s 0.6s<0.3s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 66% ━━━━━━━╸──── 16.4/24.7MB 34.1MB/s 0.7s<0.2s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 83% ━━━━━━━━━━── 20.6/24.7MB 41.2MB/s 0.8s<0.1s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt to 'yolov8s-worldv2.pt': 100% ━━━━━━━━━━━━ 24.7MB 28.7MB/s 0.9s
+[31m[1mrequirements:[0m Ultralytics requirement ['git+https://github.com/ultralytics/CLIP.git'] not found, attempting AutoUpdate...
+Collecting git+https://github.com/ultralytics/CLIP.git
+  Cloning https://github.com/ultralytics/CLIP.git to c:\users\bhoom\appdata\local\temp\pip-req-build-679qbo2v
+  Running command git clone --filter=blob:none --quiet https://github.com/ultralytics/CLIP.git 'C:\Users\bhoom\AppData\Local\Temp\pip-req-build-679qbo2v'
+  Resolved https://github.com/ultralytics/CLIP.git to commit 7ffa84b3bfa40c42ecc1c77147a855e69cb2dd40
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting ftfy (from clip==1.0)
+  Downloading ftfy-6.3.1-py3-none-any.whl.metadata (7.3 kB)
+Requirement already satisfied: regex in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from clip==1.0) (2026.11.19)
+Requirement already satisfied: tqdm in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from clip==1.0) (4.70.1)
+Requirement already satisfied: torch in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from clip==1.0) (2.15.0+cpu)
+Requirement already satisfied: torchvision in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from clip==1.0) (0.29.2+cpu)
+Collecting wcwidth (from ftfy->clip==1.0)
+  Downloading wcwidth-0.9.5-cp310-abi3-win_amd64.whl.metadata (26 kB)
+Requirement already satisfied: filelock in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from torch->clip==1.0) (4.2.4)
+Requirement already satisfied: typing-extensions>=4.13.0 in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from torch->clip==1.0) (4.16.0)
+Requirement already satisfied: setuptools>=77.0.3 in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from torch->clip==1.0) (78.1.0)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from torch->clip==1.0) (1.14.0)
+Requirement already satisfied: networkx>=2.5.1 in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from torch->clip==1.0) (3.7)
+Requirement already satisfied: jinja2 in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from torch->clip==1.0) (3.1.6)
+Requirement already satisfied: fsspec>=0.8.5 in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from torch->clip==1.0) (2026.9.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from sympy>=1.13.3->torch->clip==1.0) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from jinja2->torch->clip==1.0) (3.0.3)
+Requirement already satisfied: numpy in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from torchvision->clip==1.0) (2.5.4)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from torchvision->clip==1.0) (13.0.0)
+Requirement already satisfied: colorama in c:\users\bhoom\appdata\local\temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\lib\site-packages (from tqdm->clip==1.0) (0.4.6)
+Downloading ftfy-6.3.1-py3-none-any.whl (44 kB)
+Downloading wcwidth-0.9.5-cp310-abi3-win_amd64.whl (619 kB)
+   ---------------------------------------- 620.0/620.0 kB 1.5 MB/s eta 0:00:00
+Building wheels for collected packages: clip
+  Building wheel for clip (pyproject.toml): started
+  Building wheel for clip (pyproject.toml): finished with status 'done'
+  Created wheel for clip: filename=clip-1.0-py3-none-any.whl size=1383088 sha256=2c07317102a6bcdd30abb367bf8be251c1bc314dd9ab8637e748a2eb3a3e04df
+  Stored in directory: C:\Users\bhoom\AppData\Local\Temp\pip-ephem-wheel-cache-nqyo71lq\wheels\34\86\15\8b90061c1589447e29b77f16f7ab9d72afca9a2c0be2132403
+Successfully built clip
+Installing collected packages: wcwidth, ftfy, clip
+
+Successfully installed clip-1.0 ftfy-6.3.1 wcwidth-0.9.5
+
+[notice] A new release of pip is available: 25.1.1 -> 26.3
+[notice] To update, run: C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\Scripts\python.exe -m pip install --upgrade pip
+
+[31m[1mrequirements:[0m AutoUpdate success  14.3s
+WARNING [31m[1mrequirements:[0m [1mRestart runtime or rerun command for updates to take effect[0m
+
+  0%|                                               | 0.00/338M [00:00<?, ?iB/s]  0%|                                      | 1.03M/338M [00:00<00:32, 10.8MiB/s]  1%|▌                                     | 4.48M/338M [00:00<00:13, 25.7MiB/s]  2%|▉                                     | 8.28M/338M [00:00<00:10, 31.5MiB/s]  3%|█▎                                    | 11.6M/338M [00:00<00:10, 32.9MiB/s]  4%|█▋                                    | 15.1M/338M [00:00<00:09, 34.1MiB/s]  6%|██▎                                   | 20.2M/338M [00:00<00:08, 40.1MiB/s]  7%|██▊                                   | 24.5M/338M [00:00<00:07, 41.4MiB/s]  9%|███▎                                  | 29.3M/338M [00:00<00:07, 43.9MiB/s] 10%|███▊                                  | 33.9M/338M [00:00<00:07, 45.2MiB/s] 11%|████▎                                 | 38.5M/338M [00:01<00:06, 45.2MiB/s] 13%|████▊                                 | 42.8M/338M [00:01<00:06, 44.2MiB/s] 14%|█████▎                                | 47.0M/338M [00:01<00:06, 44.2MiB/s] 16%|█████▉                                | 52.4M/338M [00:01<00:06, 47.8MiB/s] 17%|██████▍                               | 57.3M/338M [00:01<00:06, 48.7MiB/s] 18%|███████                               | 62.2M/338M [00:01<00:05, 49.5MiB/s] 20%|███████▌                              | 67.0M/338M [00:01<00:05, 49.2MiB/s] 21%|████████                              | 72.1M/338M [00:01<00:05, 50.4MiB/s] 23%|████████▊                             | 77.8M/338M [00:01<00:05, 52.6MiB/s] 25%|█████████▍                            | 84.2M/338M [00:01<00:04, 55.5MiB/s] 27%|██████████                            | 89.8M/338M [00:02<00:04, 56.4MiB/s] 29%|██████████▊                           | 96.4M/338M [00:02<00:04, 58.4MiB/s] 30%|███████████▊                           | 103M/338M [00:02<00:04, 60.3MiB/s] 32%|████████████▌                          | 108M/338M [00:02<00:04, 58.1MiB/s] 34%|█████████████▏                         | 114M/338M [00:02<00:04, 57.0MiB/s] 36%|█████████████▉                         | 121M/338M [00:02<00:03, 61.2MiB/s] 37%|██████████████▌                        | 127M/338M [00:02<00:03, 60.0MiB/s] 40%|███████████████▍                       | 134M/338M [00:02<00:03, 63.8MiB/s] 41%|████████████████▏                      | 140M/338M [00:02<00:03, 61.2MiB/s] 44%|████████████████▉                      | 147M/338M [00:02<00:03, 65.9MiB/s] 45%|█████████████████▋                     | 154M/338M [00:03<00:02, 65.9MiB/s] 48%|██████████████████▌                    | 161M/338M [00:03<00:02, 70.2MiB/s] 50%|███████████████████▍                   | 168M/338M [00:03<00:02, 65.8MiB/s] 52%|████████████████████▏                  | 175M/338M [00:03<00:02, 67.5MiB/s] 54%|████████████████████▉                  | 181M/338M [00:03<00:02, 66.1MiB/s] 56%|█████████████████████▋                 | 188M/338M [00:03<00:02, 65.2MiB/s] 58%|██████████████████████▌                | 195M/338M [00:03<00:02, 67.9MiB/s] 60%|███████████████████████▍               | 203M/338M [00:03<00:01, 72.4MiB/s] 62%|████████████████████████▏              | 210M/338M [00:03<00:02, 64.4MiB/s] 65%|█████████████████████████▎             | 220M/338M [00:04<00:01, 74.8MiB/s] 67%|██████████████████████████▏            | 227M/338M [00:04<00:01, 74.4MiB/s] 69%|███████████████████████████            | 234M/338M [00:04<00:01, 63.0MiB/s] 71%|███████████████████████████▊           | 241M/338M [00:04<00:01, 63.3MiB/s] 74%|████████████████████████████▋          | 248M/338M [00:04<00:01, 67.7MiB/s] 76%|█████████████████████████████▍         | 255M/338M [00:04<00:01, 68.0MiB/s] 78%|██████████████████████████████▏        | 262M/338M [00:04<00:01, 68.5MiB/s] 79%|███████████████████████████████        | 268M/338M [00:04<00:01, 62.5MiB/s] 82%|████████████████████████████████       | 277M/338M [00:04<00:00, 70.6MiB/s] 84%|████████████████████████████████▊      | 284M/338M [00:05<00:00, 58.0MiB/s] 87%|██████████████████████████████████     | 295M/338M [00:05<00:00, 72.3MiB/s] 90%|██████████████████████████████████▉    | 303M/338M [00:05<00:00, 61.2MiB/s] 92%|███████████████████████████████████▋   | 309M/338M [00:05<00:00, 55.7MiB/s] 93%|████████████████████████████████████▍  | 315M/338M [00:05<00:00, 50.0MiB/s] 95%|█████████████████████████████████████  | 321M/338M [00:05<00:00, 47.6MiB/s] 97%|█████████████████████████████████████▋ | 326M/338M [00:06<00:00, 43.8MiB/s] 99%|██████████████████████████████████████▋| 335M/338M [00:06<00:00, 55.9MiB/s]100%|███████████████████████████████████████| 338M/338M [00:06<00:00, 56.8MiB/s]
+C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\venv\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+[yolo_world     names      ] battery AP50 0.663 | any-miss 0.833 prec 1.000 | type mAP50 0.210 type-miss 1.000 prec 0.000
+[yolo_world     descriptive] battery AP50 0.877 | any-miss 0.417 prec 1.000 | type mAP50 0.210 type-miss 1.000 prec 0.000
+[yolo_world     generic    ] battery AP50 0.993 | any-miss 0.833 prec 1.000
+[yolo_world] 1.4 min
+model                  prompts     batAP50 anyMiss anyPrec typeAP50 typeMiss typePrec  pr->po
+---------------------------------------------------------------------------------------------
+owlv2                  names         0.751   0.833   1.000    0.275    1.000    0.000   0.000
+owlv2                  descriptive   0.858   0.417   1.000    0.248    1.000    0.000   0.000
+owlv2                  generic       0.624   0.917   1.000      -        -        -       -  
+grounding_dino         names         1.000   0.833   1.000    0.407    0.917    0.200   0.000
+grounding_dino         descriptive   0.948   0.250   1.000    0.414    0.833    0.125   0.500
+grounding_dino         generic       1.000   0.000   1.000      -        -        -       -  
+yolo_world             names         0.663   0.833   1.000    0.210    1.000    0.000   0.000
+yolo_world             descriptive   0.877   0.417   1.000    0.210    1.000    0.000   0.000
+yolo_world             generic       0.993   0.833   1.000      -        -        -       -  
+frcnn (trained)        -               -     0.000     -      0.975    0.028    0.954   0.156
+frcnn_rfs (trained)    -               -     0.000     -      0.977    0.024    0.940   0.141
+yolo11s (trained)      -               -     0.000     -      0.965    0.023    0.943   0.156
+rtdetr_l (trained)     -               -     0.000     -      0.996    0.000    0.939   0.000
+
+Precision target (0.90) reachable on validation? {'owlv2/names': (True, True), 'owlv2/descriptive': (True, True), 'owlv2/generic': (True, None), 'grounding_dino/names': (True, False), 'grounding_dino/descriptive': (True, False), 'grounding_dino/generic': (True, None), 'yolo_world/names': (True, False), 'yolo_world/descriptive': (True, False), 'yolo_world/generic': (True, None)}
+E3_zero_shot.py:553: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+E3_zero_shot.py:561: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+Results zip: C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\run_E3\E3_results.zip
+HARNESS: completed without errors

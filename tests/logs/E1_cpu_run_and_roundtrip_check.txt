@@ -1,0 +1,29 @@
+E1_yolo_rtdetr.py:509: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+E1_yolo_rtdetr.py:521: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+E1_yolo_rtdetr.py:536: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+torch 2.15.0+cpu | torchvision 0.29.2+cpu | device cpu
+WARNING: no GPU. Runtime > Change runtime type > T4 GPU
+Outputs -> C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\run_E1\outputs\E1_detectors
+train | images: 1421 | boxes: 1437
+val | images: 1407 | boxes: 1434
+Classes: ['cylindric', 'pouch', 'prismatic']
+Loaded the E2 (Faster R-CNN) split from Drive
+val 702 imgs / 47 batteries | test 705 imgs / 47 batteries
+8 12 12
+{'train': 8, 'val': 12, 'test': 12}
+[yolo11s] training already finished, loading best.pt
+[yolo11s] TEST mAP50 0.007 | type-aware miss @P>=0.9 0.917 [0.818, 1.0] | prismatic->pouch 0.000
+[rtdetr_l] training already finished, loading best.pt
+[rtdetr_l] TEST mAP50 0.001 | type-aware miss @P>=0.9 1.000 [1.0, 1.0] | prismatic->pouch 0.000
+yolo11s: 9.4 M params | 21.4 GFLOPs | 5.4 FPS
+rtdetr_l: 32.8 M params | 109.2 GFLOPs | 0.9 FPS
+model        mAP50    mAP  anyMiss  typeMiss          95% CI   prec  CWE10  pr->po    ECE  GFLOPs    FPS
+--------------------------------------------------------------------------------------------------------
+frcnn        0.975  0.869    0.000     0.028 [0.000,0.085]  0.954  0.340   0.156  0.036   181.4   15.8
+frcnn_rfs    0.977  0.873    0.000     0.024 [0.000,0.072]  0.940  0.313   0.141  0.036   181.4   15.8
+yolo11s      0.007  0.002    1.000     0.917 [0.818,1.000]  0.008 10.250   0.000  0.624    21.4    5.4
+rtdetr_l     0.001  0.001    0.583     1.000 [1.000,1.000]  0.000 10.167   0.000  0.373   109.2    0.9
+Results zip: C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\run_E1\E1_results.zip | weights kept in C:\Users\bhoom\AppData\Local\Temp\claude\fdebc1a75ee4df4f\079c1425-6481-417f-babd-603383e53dd8\scratchpad\run_E1\outputs\E1_detectors
+ROUNDTRIP mAP50 1.0 mAP50_95 1.0 type miss 0.0
+CHECKS: passed
+HARNESS: completed without errors
